@@ -1,0 +1,17 @@
+body {
+    background: #43698D;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.center-wrapper h1 {
+    font-family: Georgia;
+}
+
+.center-wrapper img {
+    height: 80vh;
+    width: auto;
+    border-style: double;
+}
