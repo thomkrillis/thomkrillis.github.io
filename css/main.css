@@ -1,9 +1,11 @@
 body {
     background: #43698D;
+    height: 97vh;
 }
 
 .center-wrapper {
     text-align: center;
+    vertical-align: middle;
 }
 
 .center-wrapper h1 {
@@ -11,7 +13,7 @@ body {
 }
 
 .center-wrapper img {
-    height: 80vh;
+    height: 70vh;
     width: auto;
     border-style: double;
 }
