@@ -1,0 +1,18 @@
+- url: /img/images/1.jpg
+  gallery: /img/images/1-gallery.jpg
+  caption: Breakneck Ridge, NY
+- url: /img/images/2.jpg
+  gallery: /img/images/2-gallery.jpg
+  caption: A waterfall in Iceland
+- url: /img/images/3.jpg
+  gallery: /img/images/3-gallery.jpg
+  caption: The beach at Vík, Iceland
+- url: /img/images/4.jpg
+  gallery: /img/images/4-gallery.jpg
+  caption: A brook in the Catskills
+- url: /img/images/5.jpg
+  gallery: /img/images/5-gallery.jpg
+  caption: The Foundation Building at The Cooper Union
+- url: /img/images/6.jpg
+  gallery: /img/images/6-gallery.jpg
+  caption: A local elementary school

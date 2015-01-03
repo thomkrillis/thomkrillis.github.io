@@ -1,0 +1,15 @@
+---
+layout: bootstrap
+title: Gallery
+---
+    </head>
+    <body>
+        <h1>Gallery</h1>
+        {% for image in site.data.images %}
+            <div class="image-wrapper col-lg-4 col-sm-6 col-xs-12 item">
+                <a href="{{image.url}}">
+                    <img class="gallery-image" src="{{image.gallery}}"></img>
+                </a>
+                <p>{{image.caption}}</p>
+            </div>
+        {% endfor %}

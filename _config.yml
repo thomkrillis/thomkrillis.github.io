@@ -1,0 +1,8 @@
+name: Thom Krillis
+description: Playground Website
+
+url: http://thomkrillis.github.io/
+
+paginate: 10
+
+highlighter: pygments

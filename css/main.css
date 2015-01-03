@@ -1,19 +1,60 @@
-body {
-    background: #43698D;
-    height: 97vh;
+/* MOBILE FIRST */
+@media all {
+    /* ALL PAGES */
+    body {
+        background: #43698D;
+        height: 97vh;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Georgia;
+    }
+
+    /* HOMEPAGE */
+    .center-wrapper {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .center-wrapper img {
+        height: 70vh;
+        width: auto;
+        border-style: double;
+    }
+
+    /* GALLERY */
+    .gallery-image {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        max-height: 20.4vw;
+    }
+
+    .image-wrapper p {
+        text-align: center;
+        font: 1.3em/150% 'Georgia';
+    }
 }
 
-.center-wrapper {
-    text-align: center;
-    vertical-align: middle;
+/* TABLET */
+@media screen and (min-width: 767px) {
 }
 
-.center-wrapper h1 {
-    font-family: Georgia;
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
 }
 
-.center-wrapper img {
-    height: 70vh;
-    width: auto;
-    border-style: double;
+/* PORTRAIT */
+@media screen and (orientation:portrait) {
+    /* HOMEPAGE */
+    .center-wrapper img {
+        width: 80vw;
+        height: auto;
+    }
+
+    /* GALLERY */
+    .gallery-image {
+        max-height: 31.3vw;
+    }
 }
