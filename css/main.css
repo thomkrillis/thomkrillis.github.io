@@ -9,6 +9,7 @@
     h1 {
         text-align: center;
         font-family: Georgia;
+        font-size: 4.0em;
         margin-top: 0;
     }
 
@@ -28,7 +29,7 @@
     /* GALLERY */
     .home-button {
         position: relative;
-        font: 1.0em/100% 'Georgia';
+        font: 3.0em/100% 'Georgia';
         margin: 0.5em;
     }
 
@@ -41,20 +42,52 @@
 
     .image-wrapper p {
         text-align: center;
-        font: 1.3em/150% 'Georgia';
+        font: 2.3em/150% 'Georgia';
     }
 }
 
 /* TABLET */
 @media screen and (min-width: 767px) {
+    /* ALL PAGES */
+    h1 {
+        font-size: 3.0em;
+    }
+
+    /* HOMEPAGE */
+
+    /* GALLERY */
+    .home-button {
+        font-size: 2.0em;
+    }
+
+    .image-wrapper p {
+        font-size: 2.0em;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
+    /* ALL PAGES */
+    h1 {
+        font-size: 2.0em;
+    }
+
+    /* HOMEPAGE */
+
+    /* GALLERY */
+    .home-button {
+        font-size: 1.0em;
+    }
+
+    .image-wrapper p {
+        font-size: 1.3em;
+    }
 }
 
 /* PORTRAIT */
 @media screen and (orientation:portrait) {
+    /* ALL PAGES */
+
     /* HOMEPAGE */
     .center-wrapper img {
         width: 80vw;
