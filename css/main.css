@@ -8,9 +8,10 @@
 
     h1 {
         text-align: center;
+        font: bold 4.0em/100% Georgia;
         font-family: Georgia;
         font-size: 4.0em;
-        margin-top: 0;
+        margin: 0 0 0.67em 0;
     }
 
     /* HOMEPAGE */
@@ -22,8 +23,7 @@
     .center-wrapper img {
         height: 70vh;
         width: auto;
-        border-style: double;
-        border-color: black;
+        border: 3px double black;
     }
 
     /* GALLERY */
@@ -69,7 +69,7 @@
 @media screen and (min-width: 1200px) {
     /* ALL PAGES */
     h1 {
-        font-size: 2.0em;
+        font-size: 2.3em;
     }
 
     /* HOMEPAGE */
