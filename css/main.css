@@ -6,11 +6,29 @@
         height: 97vh;
     }
 
+    a {
+        color: inherit;
+    }
+
+    a:hover {
+        color: inherit;
+    }
+
+    a:visited {
+        color: inherit;
+    }
+
     h1 {
         text-align: center;
         font: bold 4.0em/100% Georgia;
         font-family: Georgia;
-        font-size: 4.0em;
+        margin: 0 0 0.67em 0;
+    }
+
+    h2 {
+        text-align: center;
+        font: bold 3.0em/100% Georgia;
+        font-family: Georgia;
         margin: 0 0 0.67em 0;
     }
 
@@ -44,6 +62,10 @@
         border: 3px double black;
     }
 
+    .mouse-game-container {
+        display: none;
+    }
+
     /* GALLERY */
     .gallery-image {
         display: block;
@@ -72,6 +94,10 @@
         font-size: 3.0em;
     }
 
+    h2 {
+        font-size: 2.5em;
+    }
+
     .home-button, .feedback-button {
         font-size: 2.0em;
     }
@@ -95,11 +121,19 @@
         font-size: 2.3em;
     }
 
+    h2 {
+        font-size: 2.0em;
+    }
+
     .home-button, .feedback-button {
         font-size: 1.0em;
     }
 
     /* HOMEPAGE */
+
+    .mouse-game-container {
+        display: block;
+    }
 
     /* GALLERY */
     .image-wrapper p {
