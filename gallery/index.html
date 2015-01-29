@@ -5,11 +5,13 @@ title: Gallery
     </head>
     <body>
         <a href="/" class="btn btn-default home-button">HOME</a>
-        <h1 style="margin-top: 1.5em">Gallery</h1>
+        <h1>
+            <a href="/gallery">Gallery</a>
+        </h1>
         {% for image in site.data.images %}
             <div class="image-wrapper col-lg-4 col-sm-6 col-xs-12 item">
                 <a href="{{image.url}}">
-                    <div class="gallery-image" style="background-image:url('{{image.gallery}}');"></div>
+                    <img class="gallery-image image-shadow" src="{{image.gallery}}">
                 </a>
                 <p>{{image.caption}}</p>
             </div>
